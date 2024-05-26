@@ -1,75 +1,92 @@
-/* Reset default browser styles */
-* {
+body{
+  background-color:yellowgreen;
+}
+h1{
+  font-style: oblique;
+  animation: alternate-reverse;
+}
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Navbar styles */
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links li:last-child {
-    margin-right: 0;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-/* Section styles */
-section {
-    padding: 50px 0;
-    background-color: #f9f9f9;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    overflow: hidden;
+    background-color:whitesmoke;
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color:green;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  img{
+    border-radius: 90%;
+    float: left;
+    padding-bottom: 20%;
+
+  }
+
+  h3{
+    align-content: center;
+    padding: 0%;
+    margin: 0%;
+  }
+
+ p{
+  color:black;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+
+
+
+
+h4{
+  float: none;
+}
+p{
+  font-style: normal;
+}
+footer{
+  margin-top: 150px;
+  background-color:burlywood;
+  padding-top: 25%;
+  padding-right: 20px;
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: justify;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border-top: #3B5998;
+  background-color: aqua;
+  
+  
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
 }
