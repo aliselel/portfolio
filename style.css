@@ -23,7 +23,7 @@ li{
   list-style-type: none;
 }
 a{
-  color: antiquewhite;
+  color: maroon;
   text-decoration: none;
 }
 .navbar{
@@ -174,11 +174,13 @@ a{
 }
 .about_heading{
   padding: 20px;
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
+  color: beige;
 }
 .about_heading h2{
   text-transform: uppercase;
+  color: white;
 }
 .about_heading::before, .about_heading::after{
   flex: 1;
@@ -214,6 +216,7 @@ a{
   justify-content: center;
   gap: 1rem;
   cursor: pointer;
+  color: burlywood;
 }
 /*projects section*/
 .projects_section{
